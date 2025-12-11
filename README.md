@@ -35,5 +35,30 @@ This app includes a React frontend, an Express/Node backend, and a MongoDB datab
 
 ---
 
-## 📁 Project Structure
+## ▶️ Running the Project Locally
+
+### **1️⃣ Install backend dependencies**
+```bash
+cd backend
+npm install
+```
+
+### **2️⃣ Install frontend dependencies**
+```bash
+cd ../frontend
+npm install
+```
+
+### **3️⃣ Set up environment variables**
+```bash
+Create a file named .env inside the backend/ folder:
+```
+
+### **4️⃣ Start the backend and the frontend**
+```bash
+cd backend
+node index.js
+cd frontend
+npm start
+```
 
